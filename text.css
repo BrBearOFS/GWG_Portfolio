@@ -211,26 +211,30 @@
   }
 
 
-  .bottom {
+ .bottom {
     background-color: tan;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-  }
+    justify-content: space-around;
+	height: 100%;
+}
 
-  #title {
+
+#title {
     font-size: 2em;
     font-weight: bold;
     flex-basis: 100%;
-	text-align: center;
-  }
-  .bottom .column {
-    width: 46%;
-	    
-  }
-  .bottom img {
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+
+.bottom .column {
+        width: 46%;
+    }
+
+.bottom img {
     width: 100%;
     margin: auto;
-	
-  }
+}
 }
