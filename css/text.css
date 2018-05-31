@@ -1,52 +1,46 @@
 @media only screen and (min-width: 780px) {
-   .container {
+  .container {
     display: flex;
-	flex-direction: column;
-	min-width:350px;
+    flex-direction: column;
+    min-width: 350px;
   }
 
   .header {
-	display:flex;
-	
+    display: flex;
     background-color: tan;
     width: 100%;
-    
-	border: 2px  dashed red ;
-	text-align:center;
-	font-weight: 3em;
-	flex-grow:1;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3em;
+    flex-grow: 1;
   }
 
   .logo {
     display: flex;
     width: 40%;
     padding-right: 0px;
-	border: solid 1px black;
-	height:150px;
+    height: 150px;
   }
-  
-  .logo img{
-	  width:100%;
+
+  .logo img {
+    width: 100%;
+    border: solid 1px black;
   }
 
   .slogan {
-	
-	width:100%;
-	margin:0px;
-	border: 2px green solid;
-	
-	  }
-  .name {
-	width:100%;
-	display:flex;
-	font-weight:bold;
-    font-size: 3em;
-    border:2px dashed green;
+    width: 100%;
+    margin: 0px;
+    border: 2px green solid;
   }
-  .name2{
-	display:flex;
-	Width:100%;
-	font-weight:bold;
+  .name {
+    width: 100%;
+    display: flex;
+    font-size: 3em;
+    border: 2px dashed green;
+  }
+  .name2 {
+    display: flex;
+    width: 100%;
     font-size: 3em;
     border: 2px solid aqua;
   }
@@ -105,52 +99,48 @@
 @media only screen and (max-width: 400px) {
   .container {
     display: flex;
-	flex-direction: column;
-	min-width:350px;
+    flex-direction: column;
+    min-width: 350px;
   }
 
   .header {
-	display:flex;
-	
+    display: flex;
     background-color: tan;
     width: 100%;
-    
-	border: 2px  dashed red ;
-	text-align:center;
-	font-weight: 3em;
-	flex-grow:1;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2em;
+    flex-grow: 1;
   }
 
   .logo {
     display: flex;
     width: 40%;
     padding-right: 0px;
-	border: solid 1px black;
-	height:150px;
+    height: 150px;
   }
-  
-  .logo img{
-	  width:100%;
+
+  .logo img {
+    width: 100%;
+    border: 1px solid black;
   }
 
   .slogan {
-	
-	width:100%;
-	margin:0px;
-	border: 2px green solid;
-	
-	  }
-  .name {
-	width:100%;
-	display:flex;
-	font-weight:bold;
-    font-size: 3em;
-    border:2px dashed green;
+    width: 100%;
+    margin: 0px;
+    border: 2px green solid;
   }
-  .name2{
-	display:flex;
-	Width:100%;
-	font-weight:bold;
+  .name {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size: 3em;
+    border: 2px dashed green;
+  }
+  .name2 {
+    display: flex;
+    width: 100%;
+    font-weight: bold;
     font-size: 3em;
     border: 2px solid aqua;
   }
@@ -160,7 +150,7 @@
     height: auto;
     width: 100%;
     background-color: aqua;
-	flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 
   .philosophy {
@@ -176,14 +166,12 @@
   } */
 
   .backdrop {
-    display:flex;
+    display: flex;
     width: 100%;
-   
   }
-  
-  .backdrop img{
-	 width: 100%; 
-	  
+
+  .backdrop img {
+    width: 100%;
   }
 
   #tagline {
@@ -217,54 +205,50 @@
 }
 
 @media only screen and (min-width: 400px) and (max-width: 780px) {
- .container {
+  .container {
     display: flex;
-	flex-direction: column;
-	min-width:350px;
+    flex-direction: column;
+    min-width: 350px;
   }
 
   .header {
-	display:flex;
-	
+    display: flex;
     background-color: tan;
     width: 100%;
-    
-	border: 2px  dashed red ;
-	text-align:center;
-	font-weight: 3em;
-	flex-grow:1;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    flex-grow: 1;
   }
 
   .logo {
     display: flex;
     width: 40%;
     padding-right: 0px;
-	border: solid 1px black;
-	height:150px;
+    height: 150px;
   }
-  
-  .logo img{
-	  width:100%;
+
+  .logo img {
+    width: 100%;
+    border: 1px solid black;
   }
 
   .slogan {
-	
-	width:100%;
-	margin:0px;
-	border: 2px green solid;
-	
-	  }
-  .name {
-	width:100%;
-	display:flex;
-	font-weight:bold;
-    font-size: 3em;
-    border:2px dashed green;
+    width: 100%;
+    margin: 0px;
+    border: 2px green solid;
   }
-  .name2{
-	display:flex;
-	Width:100%;
-	font-weight:bold;
+  .name {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size: 3em;
+    border: 2px dashed green;
+  }
+  .name2 {
+    display: flex;
+    width: 100%;
+    font-weight: bold;
     font-size: 3em;
     border: 2px solid aqua;
   }
@@ -274,7 +258,7 @@
     height: auto;
     width: 100%;
     background-color: aqua;
-	flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 
   .philosophy {
@@ -290,21 +274,19 @@
   } */
 
   .backdrop {
-    display:flex;
+    display: flex;
     width: 100%;
-    justify-content:center;
+    justify-content: center;
   }
-  
-  .backdrop img{
-	 width: 100%; 
-	  
+
+  .backdrop img {
+    width: 100%;
   }
 
   #tagline {
     text-align: center;
     font-weight: bold;
   }
-
 
   .bottom {
     background-color: tan;
